@@ -1,8 +1,15 @@
-nav > ul > li{
-    display: inline;
-    color: blue;
-    margin-right: 15px;
+nav > ul{
+    display: flex;
 }
-nav > li{
+nav li{
+    list-style: none;
+    margin-right: 15px;
+    padding: 5px;
+}
+nav li a{
     text-decoration: none;
+    color:rgb(6, 143, 255)
+}
+nav li:hover{
+    background-color: rgb(224, 224, 224);
 }
