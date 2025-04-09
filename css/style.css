@@ -42,6 +42,7 @@ nav li:hover > .dropdown{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 #hero .hero{
     width: 60%;
@@ -66,6 +67,9 @@ nav li:hover > .dropdown{
     text-align: center;
     margin-bottom: 20px;
 }
+#hero .hero .title{
+    color: white;
+}
 
 .dd{
     color: white;
@@ -81,7 +85,72 @@ nav li:hover > .dropdown{
     background-color: rgb(90, 255, 117);
     border: none;
     font-size: 15px;
+    cursor: pointer;
 }
 .btnd{
     text-align: center;
+}
+
+.full-card{
+    width: 900px;
+    margin: 100px auto;
+}
+
+.title{
+    color: black;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+ 
+.short{
+    color: black;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-align: center;
+    opacity: 0.7;
+}
+.single{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 10px 10px 0 0;
+    padding: 0 0 10px 0;
+}
+
+.single .img img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.single .span{
+    background-color: rgb(177, 255, 210);
+    padding: 12px 32px;
+}
+
+.btn2{
+    background-color: rgb(76, 252, 85);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.single p{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
